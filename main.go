@@ -20,7 +20,7 @@ func main()  {
 	viper.SetConfigType("env")
 	viper.AddConfigPath("./")
 
-	// Error checking for environment file
+	// Error checking for .env file
 	if err := viper.ReadInConfig(); err != nil {
 		if _, ok := err.(viper.ConfigFileNotFoundError); ok {
 			fmt.Println("Error, could not locate .env file", err)
