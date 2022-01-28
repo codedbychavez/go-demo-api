@@ -17,7 +17,7 @@ func NewDemoController(response string) DemoController {
 
 // FindRandom Demo returns some random string 
 func (ctrl DemoController) FindRandom(c *fiber.Ctx) error {
-	return c.SendString("I am returned from FindRandom method")
+	return c.SendString(ctrl.response)
 }
 
 
