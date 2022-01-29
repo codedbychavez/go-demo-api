@@ -1,4 +1,4 @@
-FROM golang:1.17.6 AS production
+FROM golang:1.17.6
 
 # Add a work directory
 WORKDIR /app
