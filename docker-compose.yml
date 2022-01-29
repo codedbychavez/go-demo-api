@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  demo-go-api:
+    container_name: demo-go-api
+    image: demo-go-api
+    build:
+      context: .
+      dockerfile: compose/prod/Dockerfile
+    volumes:
+      - .:/app
+    environment:
+      - PORT
+    ports:
+      - ${PORT}:${PORT}
