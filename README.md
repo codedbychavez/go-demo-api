@@ -15,7 +15,7 @@ If you don’t have a Heroku account, head over to https://signup.heroku.com/ to
 
 We may need a different docker files for production and development, so create two sub folders called `prod` and `dev` in the `compose` folder.
 
-Lets just focus a Dockerfile for dev:
+Lets just focus on a single Dockerfile for dev:
 
 Then create a `Dockerfile` in the dev folder:
 
