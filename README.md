@@ -2,20 +2,18 @@
 A simple and effective api made with go
 
 Prerequisites
-Heroku CLI
-This can be downloaded from https://devcenter.heroku.com/articles/heroku-cli
-Go app
-If you don’t have one, go ahead and clone this one to start with.
-TODO: Add a public demo go API
-Heroku account
-If you don’t have a Heroku account, head over to https://signup.heroku.com/ to create one.
+Heroku CLI - This can be downloaded from https://devcenter.heroku.com/articles/heroku-cli
+
+Go app - If you don’t have one, go ahead and clone this one to start with.
+
+Heroku account - If you don’t have a Heroku account, head over to https://signup.heroku.com/ to create one.
 
 # Steps
 1. The first thing we need to do is create a folder called `compose` in the foot of our project.
 
 We may need a different docker files for production and development, so create two sub folders called `prod` and `dev` in the `compose` folder.
 
-Lets just focus a Dockerfile for dev:
+Lets just focus on a single Dockerfile for dev:
 
 Then create a `Dockerfile` in the dev folder:
 
