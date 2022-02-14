@@ -6,7 +6,7 @@ services:
     image: demo-go-api
     build:
       context: .
-      dockerfile: compose/prod/Dockerfile
+      target: production
     volumes:
       - .:/app
     environment:
