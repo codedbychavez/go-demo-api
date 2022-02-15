@@ -36,10 +36,6 @@ COPY . .
 # Build go-demo-api
 RUN go build main.go
 
-# ------ TESTING BLOCK ------ #
-FROM builder as test
-CMD go test ./...
-
 # ------ PRODUCTION BLOCK ------ #
 FROM alpine:latest as production
 
